@@ -27,6 +27,19 @@ nav a.active {
   background-color: #ff2e88;
   color: #fff;
 }
+
+a.page-summary, a.page-summary:hover {
+    color: #000;
+    text-decoration: none;
+    display: block;
+    border: 0;
+    padding: 1rem;
+}
+
+a.page-summary:hover {
+    background-color: #eee;
+}
+
 a[itemprop="url"] {
   color: #ff9800;
 }
